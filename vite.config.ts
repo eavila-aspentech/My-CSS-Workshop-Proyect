@@ -7,5 +7,5 @@ export default defineConfig({
   // Site is served from the domain root (https://eavila-aspentech.github.io/).
   // If you switch to a project page (e.g. /My-CSS-Workshop-Proyect/), change
   // this to "/My-CSS-Workshop-Proyect/".
-  base: "/",
+  base: "/My-CSS-Workshop-Proyect/",
 });
