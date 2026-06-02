@@ -1,0 +1,96 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--eds-color-base-grey-100, #f6f7f9);
+  color: var(--eds-color-base-grey-900, #1a1f29);
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.demo-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 32px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.demo-header h1 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.demo-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.demo-header aspentech-logo {
+  height: 28px;
+}
+
+.demo-main {
+  flex: 1;
+  padding: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.demo-section {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.demo-section h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #475569;
+}
+
+.demo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.demo-footer {
+  padding: 16px 32px;
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
+  text-align: center;
+}
